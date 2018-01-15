@@ -1,0 +1,29 @@
+{
+    "name": "sunnydevbox/boticajohn",
+    "authors": [
+        {
+            "name": "PJ Go",
+            "email": "pjgo@tweeklabs.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sunnydevbox\\Boticajohn\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "sunnydevbox/tw-user": "dev-master",
+        "sunnydevbox/tw-inventory": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://bitbucket.org/sunnydevbox/tw-user.git"
+        },
+        {
+            "type": "git",
+            "url": "https://bitbucket.org/sunnydevbox/tw-inventory.git"
+        }
+    ]
+}
