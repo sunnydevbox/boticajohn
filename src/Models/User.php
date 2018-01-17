@@ -5,7 +5,9 @@ use \Sunnydevbox\TWUser\Models\User as TWUserModel;
 use \Sunnydevbox\TWCore\Repositories\TWMetaTrait;
 use \Sunnydevbox\TWEvents\Traits\EventTrait;
 
-class User extends TWUserModel {
+class User extends TWUserModel
+{
+
     use TWMetaTrait;
     use EventTrait;
 
@@ -19,8 +21,4 @@ class User extends TWUserModel {
         'state',
         'zipcode',
     ];
-
-
-
-    
 }
