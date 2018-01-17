@@ -1,6 +1,6 @@
 <?php
 
-namespace Sunnydevbox\Recoveryhub\Http\Controllers\API\V1;
+namespace Sunnydevbox\Boticajohn\Http\Controllers\API\V1;
 
 // use Dingo\Api\Http\Request;
 // use Sunnydevbox\TWCore\Http\Controllers\APIBaseController;
@@ -15,9 +15,9 @@ use Sunnydevbox\TWUser\Http\Controllers\API\V1\UserController as ExtendUserContr
 class UserController extends ExtendUserController
 {
 	public function __construct(
-		\Sunnydevbox\Recoveryhub\Repositories\User\UserRepository $repository, 
+		\Sunnydevbox\Boticajohn\Repositories\User\UserRepository $repository, 
 		\Sunnydevbox\TWUser\Validators\UserValidator $validator,
-		\Sunnydevbox\Recoveryhub\Transformers\UserTransformer $transformer
+		\Sunnydevbox\Boticajohn\Transformers\UserTransformer $transformer
 	) {
         $this->repository = $repository;
         $this->validator  = $validator;
