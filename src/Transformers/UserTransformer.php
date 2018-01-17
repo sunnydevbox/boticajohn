@@ -1,6 +1,6 @@
 <?php
 
-namespace Sunnydevbox\Recoveryhub\Transformers;
+namespace Sunnydevbox\Boticajohn\Transformers;
 
 // use Dingo\Api\Http\Request;
 // use Dingo\Api\Transformer\Binding;

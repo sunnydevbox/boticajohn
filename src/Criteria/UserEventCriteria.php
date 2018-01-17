@@ -1,6 +1,6 @@
 <?php
 
-namespace Sunnydevbox\Recoveryhub\Criteria;
+namespace Sunnydevbox\Boticajohn\Criteria;
 
 use Prettus\Repository\Contracts\CriteriaInterface;
 use Prettus\Repository\Contracts\RepositoryInterface;

@@ -1,5 +1,5 @@
 <?php
-namespace Sunnydevbox\Recoveryhub\Models;
+namespace Sunnydevbox\Boticajohn\Models;
 
 use \Sunnydevbox\TWUser\Models\User as TWUserModel;
 use \Sunnydevbox\TWCore\Repositories\TWMetaTrait;

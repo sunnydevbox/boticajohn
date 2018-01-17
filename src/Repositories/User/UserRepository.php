@@ -1,5 +1,5 @@
 <?php
-namespace Sunnydevbox\Recoveryhub\Repositories\User;
+namespace Sunnydevbox\Boticajohn\Repositories\User;
 
 use Sunnydevbox\TWUser\Repositories\User\UserRepository as ExtendUserRepository;
 
