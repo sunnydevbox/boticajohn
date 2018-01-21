@@ -22,10 +22,10 @@ class BoticajohnServiceProvider extends BaseServiceProvider
             $this->app->register(\Sunnydevbox\TWUser\TWUserServiceProvider::class);
         }
 
-        if (class_exists('\Stevebauman\Inventory\InventoryServiceProvider')
-            && !$this->app->resolved('\Stevebauman\Inventory\InventoryServiceProvider')) {
-            $this->app->register(\Stevebauman\Inventory\InventoryServiceProvider::class);
-        } 
+        if (class_exists('\Sunnydevbox\TWInventory\TWInventoryServiceProvider')
+            && !$this->app->resolved('\Sunnydevbox\TWInventory\TWInventoryServiceProvider')) {
+            $this->app->register(\Sunnydevbox\TWInventory\TWInventoryServiceProvider::class);
+        }
 	}
 
 }
