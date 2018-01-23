@@ -45,6 +45,10 @@ class UserTransformer extends ExtendUsertransformer
             }
         }
 
+        if (isset($obj->token)) {
+            $data['token'] = $obj->token;
+        }
+
         return $data;
     }
 
