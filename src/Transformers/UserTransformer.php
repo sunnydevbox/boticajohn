@@ -17,6 +17,7 @@ class UserTransformer extends ExtendUsertransformer
         if ($this->mode == 'basic') {
             $data = [
                 'id' => $obj->id,
+                'email' => $obj->email,
                 'first_name' => $obj->getMeta('first_name'),
                 'last_name' => $obj->getMeta('last_name'),
             ];
