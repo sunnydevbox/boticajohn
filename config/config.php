@@ -10,6 +10,6 @@ return [
     ],
 
     'controllers'	=> [
-    	'brach'		=> 'Sunnydevbox\\Boticajohn\\Http\\Controllers\\API\V1\\BranchController',
+    	'branch'		=> 'Sunnydevbox\\Boticajohn\\Http\\Controllers\\API\V1\\BranchController',
     ],
 ];

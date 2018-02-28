@@ -10,5 +10,24 @@
         "psr-4": {
             "Sunnydevbox\\Boticajohn\\": "src/"
         }
-    }
+    },
+    "require": {
+        "sunnydevbox/tw-core": "dev-master",
+        "sunnydevbox/tw-user": "dev-master",
+        "sunnydevbox/tw-inventory": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://bitbucket.org/sunnydevbox/tw-core.git"
+        },
+        {
+            "type": "git",
+            "url": "https://bitbucket.org/sunnydevbox/tw-user.git"
+        },
+        {
+            "type": "git",
+            "url": "https://bitbucket.org/sunnydevbox/tw-inventory.git"
+        }
+    ]
 }
