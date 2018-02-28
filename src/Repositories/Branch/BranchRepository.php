@@ -1,6 +1,5 @@
-
 <?php
-namespace Sunnydevbox\Boticajohn\Repositories\User;
+namespace Sunnydevbox\Boticajohn\Repositories\Branch;
 
 use Sunnydevbox\TWUser\Repositories\User\UserRepository as ExtendUserRepository;
 use Sunnydevbox\TWCore\Repositories\TWBaseRepository;

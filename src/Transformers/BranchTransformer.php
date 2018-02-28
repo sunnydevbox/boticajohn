@@ -2,13 +2,9 @@
 
 namespace Sunnydevbox\Boticajohn\Transformers;
 
-// use Dingo\Api\Http\Request;
-// use Dingo\Api\Transformer\Binding;
-// use Dingo\Api\Contract\Transformer\Adapter;
-use Sunnydevbox\TWUser\Transformers\RoleTransformer;
-use Sunnydevbox\TWUser\Transformers\UserTransformer as ExtendUsertransformer;
+use League\Fractal\TransformerAbstract;
 
-class UserTransformer extends ExtendUsertransformer
+class BranchTransformer extends TransformerAbstract
 {
     public function transform($obj)
     {
