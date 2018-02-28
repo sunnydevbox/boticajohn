@@ -10,7 +10,6 @@ use Sunnydevbox\TWUser\Transformers\UserTransformer as ExtendUsertransformer;
 
 class UserTransformer extends ExtendUsertransformer
 {
-
     public function transform($obj)
     {
 
